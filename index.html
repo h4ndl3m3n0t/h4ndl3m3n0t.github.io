@@ -7,10 +7,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>H4ndl3m3n0t | Home</title>
+        <title>M.G.P.E. | Welcome to my website</title>
         <meta name="description" content="Welcome to my personal website, enjoy your stay.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.css">
+        <link rel="shortcut icon" type="image/png" href="./assets/img/mgpe.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
@@ -18,8 +22,60 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <h1>Hello world!!! Welcome to the world of github pages</h1>
+        <div class="container">
+            <!--Navigation-->
+            <div class="card card-nav">
+                <div class="nav">
+                    <div class="nav-header">
+                        <span class="header">M.&nbsp;G.&nbsp;P.&nbsp;E.</span>
+                    </div>
+                    <button id="menu" class="menu">
+                        Menu&nbsp;&nbsp;<i class="fa-sharp fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="nav-items">
+                        <li><a href="#About">About Me</a></li>
+                        <li><a href="#CaseStudies">Case Studies</a></li>
+                        <li><a href="#Testimonials">Testimonials</a></li>
+                        <li><a href="#Goods">Free goodies</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
 
-        <script src="" async defer></script>
+            <!--Hero like on bootstrap-->
+            <!--<div class="hero"></div>-->
+
+            <!--About Me section-->
+            <div id="About" class="card">
+
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="./assets/img/mgpe.png">
+                    </div>
+                    <div class="profile-section">
+                        <h1>About Me</h1>
+                        <p>
+                            Hello, my name is <a href="https://github.com/h4ndl3m3n0t" target="_blank"><span class="highlight">Mark Glyn P. Evans</span></a>. I'm an individual who enjoys learning new technologies and creating web apps or systems for clients. With proficiencies in <span class="highlight">HTML, CSS, JS, PHP and SQL</span>. I can turn your business ideas into reality at a reasonable price.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Case Studies-->
+            <div id="CaseStudies" class="cards">
+                <div class="section">
+                    <div class="company-photo"></div>
+                    <div class="company-intro">
+                        <h1>Big Company</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ullam hic natus voluptatem ex provident quis aut cum alias obcaecati, corrupti placeat temporibus praesentium quibusdam. Repudiandae et debitis nobis earum!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Testimonials-->
+            <!--Free Web apps/system-->
+            <!--Contacts-->
+        </div>
+        <script src="./assets/js/app.js" async defer></script>
     </body>
 </html>
