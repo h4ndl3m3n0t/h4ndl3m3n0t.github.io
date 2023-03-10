@@ -53,9 +53,9 @@ button:hover{
 }
 
 img{
-    height: 20rem;
+    height: 15rem;
     max-width: 15rem;
-    border-radius: 2rem;
+    border-radius: 10rem;
 }
 
 .container{
@@ -97,7 +97,7 @@ img{
 
 .align-mid{
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .section{
@@ -149,19 +149,17 @@ img{
 
 /* about me */
 .profile{
-    padding: 1.5rem;
-}
-
-.profile{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem;
 }
 
 .profile-section{
     margin-left: 2rem;
 }
+
 
 /* case studies */
 .company-intro{
@@ -169,7 +167,7 @@ img{
 }
 
 /* responsive */
-@media (max-width: 56rem) {
+@media (max-width: 65rem) {
 
     /* global */
     .container{
@@ -207,6 +205,7 @@ img{
     /* profile */
     .profile{
         flex-direction: column;
+        padding: 1.5rem;
     }
 
     .profile-section{
