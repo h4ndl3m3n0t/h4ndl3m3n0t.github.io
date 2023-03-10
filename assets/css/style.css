@@ -68,6 +68,7 @@ img{
     box-shadow: 0 4px 8px 0 var(--color-black-transparent-a), 0 6px 20px 0 var(--color-black-transparent-b);
     border-radius: 5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .highlight{
@@ -140,7 +141,7 @@ img{
 /* navigation */
 
 .card-nav{
-    margin-top: 3rem;
+    margin-top: 1.2rem;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
